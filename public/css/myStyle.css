@@ -1,0 +1,239 @@
+
+/*!
+=========================================================
+* This is customized style for the website
+=========================================================
+
+*/
+.table-container{
+  padding: 15px!important;
+  min-height: 50%;
+
+}
+.app-main{
+  display: inline!important;
+}
+.note1-cell{
+  background-color: #FF0000;
+  /*background-color: #0000FF;*/
+}
+.note2-cell{
+  background-color: #FF7F00;
+  /* background-color: #00FF00; */
+}
+.note3-cell{
+  background-color: #FFFF00;
+  /* background-color: #FF00FF; */
+}
+.note4-cell{
+  background-color: #00FF00;
+}
+.note5-cell{
+  background-color: #0000FF;
+}
+.note6-cell{
+  background-color: #4B0082;
+}
+.note7-cell{
+  background-color: #9400D3;
+}
+.note8-cell{
+  background-color: #9f929a;
+}
+
+/** for top buttons  **/
+.button-section{
+  width: 100%;
+
+}
+.left-element{
+  float: left;
+  width: 45%;
+
+}
+.right-element{
+  float:right;
+}
+.column-active{
+  background-color: #adc2f3
+}
+
+.dashboard-menu:hover{
+  text-decoration: none;
+}
+.top-bar{
+  min-height: 50px;
+}
+
+.err-class{
+  border:1px solid #f8001e!important;
+}
+.err-msg{
+  color: #f8001e;
+  font-size: 13px;
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */
+    display: none;
+}
+.modal{
+  margin-top: 10%;
+}
+
+#saveMusicBtn{
+  width:30%;
+}
+
+.breadcrumb-item a:hover{
+  text-decoration: none!important;
+}
+
+
+/* for loader */
+.loading-div{
+  opacity: 0.5;
+}
+
+
+.gooey {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: #fff;
+  filter: contrast(20);
+}
+.gooey .dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+.gooey .dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+.gooey .dots span {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  filter: blur(4px);
+  background: #000;
+  border-radius: 50%;
+}
+@-moz-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-webkit-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-o-keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@-moz-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-webkit-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@-o-keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+.beats-table{
+  padding: 12px;
+  width: -webkit-max-content;
+}
+
+
+.table td{
+  width: 80px!important;
+
+}
+
+.polaroid{
+	list-style: none;
+}
+
+.polaroid li{
+	list-style: none;
+	float: left;
+	margin: 5px;
+	width: 222px;
+	border: #EEE 1px solid;
+}
+
+.polaroid li .polaroidimg{
+	margin: 10px 10px 0 10px;
+	/*border: #EEE 1px solid;*/
+}
+
+.polaroid li .polaroidlabel{
+	margin: 0 10px;
+	height: 42px;
+	overflow: hidden;
+}
+
+.polaroid li .polaroidlabel .tr{
+	display: table;
+	width: inherit;
+	height: inherit;
+}
+
+.polaroid li .polaroidlabel .tr .td{
+	display: table-cell;
+	vertical-align: middle;
+	font: normal 15px/20px Arial, Helvetica, sans-serif;
+}
+
+.polaroid li .polaroidlabel div p{
+	margin-bottom: 10px;
+}
+
+.polaroid li .polaroidoption{
+	border-top: #EEE 1px solid;
+	padding: 10px 10px 5px 10px;
+}
+
+.del-buton:hover{
+  opacity:0.8;
+}
+
+.del-buton{
+  cursor: pointer;
+}

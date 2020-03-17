@@ -12,4 +12,6 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .js('node_modules/tone/build/Tone.js', 'public/js/Tone.js')
+    .js('node_modules/tone/build/Tone.js.map', 'public/js/Tone.js.map')
+   .sass('resources/sass/app.scss', 'public/css');
